@@ -1,0 +1,22 @@
+{
+  "name": "instanews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danweinstock/instanews.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danweinstock/instanews/issues"
+  },
+  "homepage": "https://github.com/danweinstock/instanews#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
