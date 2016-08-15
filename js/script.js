@@ -25,10 +25,10 @@ $(document).ready(function(){
 		} 
 			
 			original.remove()
-			// var i = 0;
-			// $('.original').each(function(i){
-			// 	$(this).attr('id',"item" +(i+1));
-			// })
+			var i = 0;
+			$('.original').each(function(i){
+				$(this).attr('id',"item" +(i+1));
+			})
 			// $('.pic').hover(function(){
 			// 	$('.abstract').show();
 			// })
