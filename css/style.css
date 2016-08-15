@@ -1,7 +1,3 @@
-/*@font-face{
-	font-family: 'opensans-bold';
-	src: local(/fonts/OpenSans-Bold.ttf);
-}*/
 @font-face {
     font-family: opensanslight;
     src: url(../fonts/OpenSans-Light.ttf);
@@ -26,16 +22,11 @@ body{
 }
 footer{
 	color:#c2c2c2;
+	bottom: 0;
 }
 .pic img{
 	width: 100%;
 	height: 15rem;
-}
-.abstract{
-	height: 7rem;
-}
-footer{
-	bottom: 0;
 }
 .full-height{
 	height: 100vh;
@@ -43,6 +34,11 @@ footer{
 .change-height{
 	height: 5rem;
 }	
-#item1{
+.abstract{
 	display: none;
 }
+.original:hover .abstract{
+	display: block;
+	transition: height 2s;
+}
+
