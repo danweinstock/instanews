@@ -2,11 +2,27 @@
 	font-family: 'opensans-bold';
 	src: local(/fonts/OpenSans-Bold.ttf);
 }*/
+@font-face {
+    font-family: opensanslight;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face{
+	font-family: opensanslightitalic;
+	src: url(../fonts/OpenSans-LightItalic.ttf);
+}
+@font-face{
+	font-family: opensansbold;
+	src: url(../fonts/OpenSans-Bold);
+}
+@font-face{
+	font-family: opensansbolditalic;
+	src: url(../fonts/OpenSans-BoldItalic.ttf);
+}
 body{
 	font-size: 16px;
 	color: #ffffff;
 	background: #000000;
-/*	font-family: 'opensans-bold';*/
+	font-family: 'opensanslight';
 }
 footer{
 	color:#c2c2c2;
@@ -16,7 +32,7 @@ footer{
 	height: 15rem;
 }
 .abstract{
-	height: 5rem;
+	height: 7rem;
 }
 footer{
 	bottom: 0;
@@ -27,3 +43,6 @@ footer{
 .change-height{
 	height: 5rem;
 }	
+#item1{
+	display: none;
+}
