@@ -15,3 +15,4 @@ SCSS/SASS
 How to access JSON objects through a loop rather than writing each object out in a mixture of dot and bracket notation
 How to use the jQuery clone method to render content onto an HTML framework
 How to use @font-face to used fonts saved locally to style my site
+How to include multiple sources within one Gulp task

@@ -1,0 +1,7 @@
+.abstract{
+	display: none;
+}
+.original:hover .abstract{
+	display: block;
+	transition: height 2s;
+}
