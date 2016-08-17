@@ -1,4 +1,4 @@
-var gulp = require('gulp'), rename = require('gulp-rename'), uglycss = require('gulp-clean-css'), uglyjs = require('gulp-uglify'), sass= require('gulp-sass'), concat = require('gulp-concat');
+const gulp = require('gulp'), rename = require('gulp-rename'), uglycss = require('gulp-clean-css'), uglyjs = require('gulp-uglify'), sass= require('gulp-sass'), concat = require('gulp-concat'), babel = require('gulp-babel');
 
 gulp.task
 gulp.task('scss', function(){
