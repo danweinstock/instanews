@@ -7,7 +7,7 @@
 		if (typeof(value.multimedia[0]) != undefined && value.multimedia.length != 0) {
 			let photoURL = (value.multimedia[4].url);
 			clone.children(".abstract").text(abstract)
-			clone.children(".pic").append('<a href= "'+articleURL+'" >  <img src="'+ photoURL +'"> </a>')
+			clone.children(".pic").append(`<a href= "${articleURL}" ><img src="${photoURL}"> </a>`)
 		}
 		else{
 			return;

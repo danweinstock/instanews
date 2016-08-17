@@ -1,4 +1,4 @@
-function onReady(){
+export function onReady(){
 	console.log("ready");
 		$('.overlay').hide()
 		$('select').on('change',function(){
@@ -9,6 +9,3 @@ function onReady(){
 	$.getJSON(url).done(motherFunction);
 		});	
 }
-
-$(document).ready(onReady);
-
