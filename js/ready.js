@@ -1,4 +1,4 @@
-export function onReady(){
+function onReady(){
 	console.log("ready");
 		$('.overlay').hide()
 		$('select').on('change',function(){

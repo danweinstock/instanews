@@ -14,11 +14,13 @@ gulp.task('js', function(){
 	.pipe(rename({extname:".min.js"}))
 	.pipe(gulp.dest('./build/js'))
 })
-// gulp.task('es6', function(){
-// 	gulp.src('.js/*.js')
-// 	.pipe(babel({presets: ['es2015']}))
-// 	.pipe(gulp.dest('./build/js'))
-// })
+gulp.task('es6', () => {
+   gulp.src('./js/*.js')
+     .pipe(babel({presets: ['es2015']}))
+     .pipe(uglyjs())
+     .pipe(concat('all.js'))
+     .pipe(gulp.dest('./build/js'));
+});
 gulp.task('default',function(){
 	gulp.watch('./scss/**/*.scss',['scss']);
 	gulp.watch('./js/*.js', ['js'])
